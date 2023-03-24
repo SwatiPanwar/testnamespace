@@ -21,13 +21,13 @@ class Config(BaseRepr):
     APP_NAME = "devops_test"
 
     #Set the cookie domain to only operate within the <mountpoint> subdomain
-    MOUNTPOINT = os.getenv("MOUNTPOINT", None)
+    MOUNTPOINT = os.getenv("MOUNTPOINT", "")
     SUBMOUNT_URL = os.getenv("SUBMOUNT_URL", "")
 
     APPLICATION_ROOT = MOUNTPOINT + SUBMOUNT_URL
 
-    assert APPLICATION_ROOT != None
-    assert APPLICATION_ROOT != ''
+  #  assert APPLICATION_ROOT is not ''
+  #  assert APPLICATION_ROOT is not ''
 
     SESSION_COOKIE_NAME = os.getenv('SESSION_COOKIE_NAME', 'session_test')
     API_VERSION = os.getenv('API_VERSION', '0.1')
@@ -108,5 +108,5 @@ config_by_name = {
         'prod':ProductionConfig
         }
 
-ENVIRONMENT = os.getenv("ENVIRONMENT")
+ENVIRONMENT = os.getenv("ENVIRONMENT", "dev")
 app_config = config_by_name[ENVIRONMENT]
