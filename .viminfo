@@ -12,9 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1679863064,,"wq!"
+|2,0,1679956870,,"wq!"
 :q!
-|2,0,1679862665,,"q!"
+|2,0,1679956031,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -27,233 +27,265 @@
 # Registers:
 
 # File marks:
-'0  19  19  ~/Dockerfile
-|4,48,19,19,1679863064,"~/Dockerfile"
-'1  19  4  ~/Dockerfile
-|4,49,19,4,1679863002,"~/Dockerfile"
-'2  19  13  ~/Dockerfile
-|4,50,19,13,1679862972,"~/Dockerfile"
-'3  19  13  ~/Dockerfile
-|4,51,19,13,1679862972,"~/Dockerfile"
-'4  17  134  ~/Dockerfile
-|4,52,17,134,1679862917,"~/Dockerfile"
-'5  17  134  ~/Dockerfile
-|4,53,17,134,1679862917,"~/Dockerfile"
-'6  17  134  ~/Dockerfile
-|4,54,17,134,1679862917,"~/Dockerfile"
-'7  17  134  ~/Dockerfile
-|4,55,17,134,1679862917,"~/Dockerfile"
-'8  17  134  ~/Dockerfile
-|4,56,17,134,1679862917,"~/Dockerfile"
-'9  17  134  ~/Dockerfile
-|4,57,17,134,1679862917,"~/Dockerfile"
+'0  16  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,48,16,14,1679956870,"~/testnamespace/docker-compose.local.traefik.yml"
+'1  16  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,49,16,14,1679956828,"~/testnamespace/docker-compose.local.traefik.yml"
+'2  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,50,18,44,1679956653,"~/testnamespace/docker-compose.local.traefik.yml"
+'3  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,51,18,44,1679956653,"~/testnamespace/docker-compose.local.traefik.yml"
+'4  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,52,18,44,1679956653,"~/testnamespace/docker-compose.local.traefik.yml"
+'5  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,53,18,44,1679956653,"~/testnamespace/docker-compose.local.traefik.yml"
+'6  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,54,18,44,1679956586,"~/testnamespace/docker-compose.local.traefik.yml"
+'7  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,55,18,44,1679956586,"~/testnamespace/docker-compose.local.traefik.yml"
+'8  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,56,18,44,1679956586,"~/testnamespace/docker-compose.local.traefik.yml"
+'9  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,57,18,44,1679956586,"~/testnamespace/docker-compose.local.traefik.yml"
 
 # Jumplist (newest first):
--'  19  19  ~/Dockerfile
-|4,39,19,19,1679863064,"~/Dockerfile"
--'  19  4  ~/Dockerfile
-|4,39,19,4,1679863002,"~/Dockerfile"
--'  19  13  ~/Dockerfile
-|4,39,19,13,1679862972,"~/Dockerfile"
--'  17  134  ~/Dockerfile
-|4,39,17,134,1679862948,"~/Dockerfile"
--'  17  134  ~/Dockerfile
-|4,39,17,134,1679862948,"~/Dockerfile"
--'  17  134  ~/Dockerfile
-|4,39,17,134,1679862948,"~/Dockerfile"
--'  17  134  ~/Dockerfile
-|4,39,17,134,1679862917,"~/Dockerfile"
--'  12  0  ~/Dockerfile
-|4,39,12,0,1679862867,"~/Dockerfile"
--'  12  0  ~/Dockerfile
-|4,39,12,0,1679862867,"~/Dockerfile"
--'  12  0  ~/Dockerfile
-|4,39,12,0,1679862867,"~/Dockerfile"
--'  12  0  ~/Dockerfile
-|4,39,12,0,1679862867,"~/Dockerfile"
--'  12  0  ~/Dockerfile
-|4,39,12,0,1679862822,"~/Dockerfile"
--'  9  16  ~/Dockerfile
-|4,39,9,16,1679862706,"~/Dockerfile"
--'  9  16  ~/Dockerfile
-|4,39,9,16,1679862706,"~/Dockerfile"
--'  9  16  ~/Dockerfile
-|4,39,9,16,1679862706,"~/Dockerfile"
--'  9  16  ~/Dockerfile
-|4,39,9,16,1679862706,"~/Dockerfile"
--'  9  16  ~/Dockerfile
-|4,39,9,16,1679862706,"~/Dockerfile"
--'  11  48  ~/Dockerfile
-|4,39,11,48,1679862668,"~/Dockerfile"
--'  8  48  ~/Dockerfile
-|4,39,8,48,1679862668,"~/Dockerfile"
--'  11  48  ~/Dockerfile
-|4,39,11,48,1679862668,"~/Dockerfile"
--'  8  48  ~/Dockerfile
-|4,39,8,48,1679862668,"~/Dockerfile"
--'  11  48  ~/Dockerfile
-|4,39,11,48,1679862668,"~/Dockerfile"
--'  8  48  ~/Dockerfile
-|4,39,8,48,1679862668,"~/Dockerfile"
--'  11  48  ~/Dockerfile
-|4,39,11,48,1679862668,"~/Dockerfile"
--'  8  48  ~/Dockerfile
-|4,39,8,48,1679862668,"~/Dockerfile"
--'  11  48  ~/Dockerfile
-|4,39,11,48,1679862668,"~/Dockerfile"
--'  8  48  ~/Dockerfile
-|4,39,8,48,1679862668,"~/Dockerfile"
--'  8  48  ~/Dockerfile
-|4,39,8,48,1679862665,"~/Dockerfile"
--'  8  48  ~/Dockerfile
-|4,39,8,48,1679862499,"~/Dockerfile"
--'  10  0  ~/Dockerfile
-|4,39,10,0,1679862470,"~/Dockerfile"
--'  10  0  ~/Dockerfile
-|4,39,10,0,1679862470,"~/Dockerfile"
--'  10  0  ~/Dockerfile
-|4,39,10,0,1679862470,"~/Dockerfile"
--'  10  0  ~/Dockerfile
-|4,39,10,0,1679862470,"~/Dockerfile"
--'  10  0  ~/Dockerfile
-|4,39,10,0,1679862470,"~/Dockerfile"
--'  9  0  ~/Dockerfile
-|4,39,9,0,1679862470,"~/Dockerfile"
--'  9  0  ~/Dockerfile
-|4,39,9,0,1679862470,"~/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
--'  1  0  ~/app/Dockerfile
-|4,39,1,0,1679862461,"~/app/Dockerfile"
+-'  16  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,16,14,1679956870,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  16  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,16,14,1679956828,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,18,44,1679956802,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,18,44,1679956802,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,18,44,1679956653,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  18  44  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,18,44,1679956586,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  11  47  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,11,47,1679956462,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  11  47  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,11,47,1679956462,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  11  47  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,11,47,1679956462,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  11  47  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,11,47,1679956462,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  11  47  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,11,47,1679956449,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  12  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,12,14,1679956221,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  12  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,12,14,1679956221,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  12  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,12,14,1679956221,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  12  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,12,14,1679956221,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  12  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,12,14,1679956221,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  12  14  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,12,14,1679956205,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  1  0  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,1,0,1679956033,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  1  0  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,1,0,1679956033,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  1  0  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,1,0,1679956033,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  1  0  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,1,0,1679956033,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  1  0  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,1,0,1679956033,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  1  0  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,1,0,1679956033,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  1  0  ~/testnamespace/docker-compose.local.traefik.yml
+|4,39,1,0,1679956031,"~/testnamespace/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
+-'  6  15  ~/project21/docker-compose.local.traefik.yml
+|4,39,6,15,1679955388,"~/project21/docker-compose.local.traefik.yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/testnamespace/docker-compose.local.traefik.yml
+	*	1679956868	0
+	"	16	14
+	^	16	15
+	.	16	0
+	+	6	38
+	+	14	61
+	+	15	12
+	+	11	92
+	+	6	21
+	+	14	45
+	+	11	48
+	+	18	45
+	+	16	0
+
+> ~/project21/docker-compose.local.traefik.yml
+	*	1679955386	0
+	"	6	15
+	^	6	16
+	.	6	15
+	+	6	14
+	+	11	23
+	+	15	33
+	+	6	15
+
+> ~/project21/docker-compose.traefik.yml
+	*	1679954202	0
+	"	93	0
+	^	6	14
+	.	6	13
+	+	6	13
+
 > ~/Dockerfile
-	*	1679863063	0
+	*	1679864611	0
 	"	19	19
 	^	19	20
 	.	19	19
