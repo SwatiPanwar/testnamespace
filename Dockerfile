@@ -22,4 +22,5 @@ RUN pip3 --disable-pip-version-check install -r requirements.txt
 
 
 
+EXPOSE 80
 CMD ["python3", "./app.py"]
