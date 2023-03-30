@@ -3,7 +3,7 @@ version: "3.8"
 networks:
     frontend:
         external: true
-        name: ${FRONTEND_NETWORK_NAME:?frontend_network_name}
+        name: frontend
     api:
       name: api
 
@@ -20,24 +20,24 @@ x-service-traefik-frontend: &service-traefik-frontend
 
         - "traefik.http.routers.rtr_devopstestapi.service=svc_devopstestapi"
         - "traefik.http.services.svc_devopstestapi.loadbalancer.server.port=80"
-
-
+        
+              
 services:
     api:
-        image: ${DOCKER_REPO:?docker_repo}/${IMAGE_NAME:?image_name}:${IMAGE_VERSION:?image_version}
+        image: swatipanwar/test_api_dev:latest
         networks:
             - api
         environment:
-            ENVIRONMENT: ${ENVIRONMENT:?environment}
-            APP_PORT: ${INTERNAL_APP_PORT:?internal_app_port}
+            ENVIRONMENT: prod
+            APP_PORT: 80:80
             API_VERSION: ${API_VERSION:-0.1}
             #mountpoint always has a leading slash
-            MOUNTPOINT: ${MOUNTPOINT:?mountpoint}
-            SUBMOUNT_URL: ${SUBMOUNT_URL} #[dev, uat, ''] missing implies prod!
+            MOUNTPOINT: /testapi
+            SUBMOUNT_URL:   #[dev, uat, ''] missing implies prod!
             SESSION_COOKIE_NAME: my_test_cookie
 
-            WTF_CSRF_SECRET_KEY: ${WTF_CSRF_SECRET_KEY:?wtf_csrf_secret_key}
-            SECRET_KEY: ${SECRET_KEY:?secret_key}
+            WTF_CSRF_SECRET_KEY: abc
+            SECRET_KEY: abc
 
         restart: unless-stopped
 
@@ -67,20 +67,43 @@ services:
 
 
         healthcheck:
-            test: ["CMD", "curl", "-f", "http://localhost:${INTERNAL_APP_PORT:?internal_app_port}${MOUNTPOINT:?mountpoint}${SUBMOUNT_URL}/status"]
+            test: ["CMD", "curl", "-f", "http://localhost:80/testapi:dev/status"]
             interval: 30s
             timeout: 10s
             retries: 3
             start_period: 3s
+        
+              # command: [  "gunicorn", "--preload",
+              #         "-w", "3",
+              #         "--config", "/app/src/gunicorn_config.py",
+              #         "--worker-tmp-dir", "/dev/shm", #use shm as the worker lock-file dir or we will have to wait for io
+              #                        "--worker-class", "gevent",
+              #         "-b", "0.0.0.0:80", #${INTERNAL_APP_PORT:?internal_app_port}
+              #         "--logger-class", "logger.CustomLogger",
+              #         "--access-logfile", "-",
+              #         "--log-file", "-", #all logs to stdout
+              #         "wsgigunicorn:app" ]
 
-        command: [  "gunicorn", "--preload", 
-                        "-w", "3", 
-                        "--config", "gunicorn_config.py",
-                        "--worker-tmp-dir", "/dev/shm", #use shm as the worker lock-file dir or we will have to wait for io
-                        "--worker-class", "gevent", 
-                        "-b", "0.0.0.0:${INTERNAL_APP_PORT:?internal_app_port}", 
-                        "--logger-class", "logger.CustomLogger",
-                        "--access-logfile", "-",
-                        "--log-file", "-", #all logs to stdout
-                        "wsgigunicorn:app" ]
+                        #        command: 
+                        # - 'gunicorn'
+                        # - '--preload'
+                        # - '-w'
+                        # - '3'
+                        # - '--config','/testnamespace/src/gunicorn_config.py' 
+                          # - '-config gunicorn_config.py'
+                          # - 'gunicorn_config.py'
+                          # - '--worker-tmp-dir' 
+                          # - '/dev/shm'    #use shm as the worker lock-file dir or we will have to wait for io
+                          ## - '--worker-class' 
+                          # - 'gevent' 
+                          # - '-b' 
+                          #  - '0.0.0.0:80' 
+                          # - '--logger-class' 
+                          # - 'logger.CustomLogger'
+                          # - '--access-logfile' 
+                          # - '-'
+                          # - '--log-file' 
+                          # - '-' #all logs to stdout
+                          # - 'wsgigunicorn:app'
+                          
 

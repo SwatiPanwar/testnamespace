@@ -1,10 +1,10 @@
 """
 Reference this file in the gunicorn cli options.
 ie:
-    Format: PATH or file:PATH or python:modulename
---config gunicorn_config.py
+    Format: PATH or file:PATH or python:modulename """
+#--config gunicorn_config.py
 
-"""
+
 # TODO set this as the app name from config
 proc_name = 'test_api'
 

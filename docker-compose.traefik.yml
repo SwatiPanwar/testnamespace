@@ -3,7 +3,7 @@ version: "3.8"
 networks:
     frontend:
         external: true
-        name: ${FRONTEND_NETWORK_NAME:?frontend_network_name}
+        name: frontend
 
     backend:
         name: backend
@@ -84,7 +84,7 @@ services:
       - "traefik.enable=true" 
       - "traefik.docker.network=frontend"
       - "traefik.backend=prometheus"
-      - "traefik.port=9090"
+      - "traefik.port=8080"
 
       - "traefik.http.routers.prometheus.rule=Host(`prometheus.localhost`)"
       - "traefik.http.routers.prometheus.middlewares=auth"

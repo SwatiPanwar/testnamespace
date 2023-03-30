@@ -1,5 +1,6 @@
 werkzeug==0.16.0
 flask-restx
+flask_restplus
 datetime
 pytest
 gunicorn
