@@ -1,4 +1,4 @@
-FROM python:3.10.6-buster
+FROM python:3.9-buster
 ARG GID=992
 ARG UID=992
 RUN groupadd -o -g $GID docker
