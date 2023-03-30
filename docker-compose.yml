@@ -73,49 +73,14 @@ services:
             retries: 3
             start_period: 3s
 
-       command: [  "gunicorn", "--preload", 
+        command: [  "gunicorn","--preload", 
                         "-w", "3", 
                         "--config", "gunicorn_config.py",
                         "--worker-tmp-dir", "/dev/shm", #use shm as the worker lock-file dir or we will have to wait for io
                         "--worker-class", "gevent", 
-                        "-b", "0.0.0.0:80, 
+                        "-b", "0.0.0.0:80",
                         "--logger-class", "logger.CustomLogger",
                         "--access-logfile", "-",
                         "--log-file", "-", #all logs to stdout
                         "wsgigunicorn:app" ]
-
-        
-              #  command: [  "gunicorn", "--preload",
-                    # "-w", "3",
-              #         "--config", "/app/src/gunicorn_config.py",
-              #         "--worker-tmp-dir", "/dev/shm", #use shm as the worker lock-file dir or we will have to wait for io
-              #                        "--worker-class", "gevent",
-              #         "-b", "0.0.0.0:80", #${INTERNAL_APP_PORT:?internal_app_port}
-              #         "--logger-class", "logger.CustomLogger",
-              #         "--access-logfile", "-",
-              #         "--log-file", "-", #all logs to stdout
-              #         "wsgigunicorn:app" ]
-
-                        #        command: 
-                        # - 'gunicorn'
-                        # - '--preload'
-                        # - '-w'
-                        # - '3'
-                        # - '--config','/testnamespace/src/gunicorn_config.py' 
-                          # - '-config gunicorn_config.py'
-                          # - 'gunicorn_config.py'
-                          # - '--worker-tmp-dir' 
-                          # - '/dev/shm'    #use shm as the worker lock-file dir or we will have to wait for io
-                          ## - '--worker-class' 
-                          # - 'gevent' 
-                          # - '-b' 
-                          #  - '0.0.0.0:80' 
-                          # - '--logger-class' 
-                          # - 'logger.CustomLogger'
-                          # - '--access-logfile' 
-                          # - '-'
-                          # - '--log-file' 
-                          # - '-' #all logs to stdout
-                          # - 'wsgigunicorn:app'
-                          
 
