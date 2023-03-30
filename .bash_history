@@ -197,3 +197,467 @@ docker ps -a
 docker prune container
 docker container prune
 docker rmi 665ecef9a037 d2398211b20d 21e6f3707b52 8b87b6ba63ea 88969c50e195 972fd4c736ea 79dbc9e313f3 55f0c32a3697
+ls -l
+cd project21/
+docker-compose up
+docker-compose version
+docker compose version
+docker compose up
+ls -l
+cat docker-compose.traefik.yml
+docker-compose up -p docker-compose.traefik.yml
+docker compose up -p docker-compose.traefik.yml
+docker compose up p docker-compose.traefik.yml
+vi docker-compose.traefik.yml
+docker compose up p docker-compose.traefik.yml
+vi docker-compose.traefik.yml
+docker compose up p docker-compose.traefik.yml
+vi docker-compose.local.traefik.yml
+docker compose up
+vi docker-compose.local.traefik.yml
+docker compose up
+vi docker-compose.local.traefik.yml
+docker compose up
+vi docker-compose.local.traefik.yml
+docker compose up
+vi docker-compose.local.traefik.yml
+cat ./Docker/api/api.env
+cd ..
+docker image
+docker images
+docker images prune
+docker images
+docker rmi test python python
+docker images
+docker rmi 1353482c9f85 97aefda9cd85
+docker build -t test_api .
+docker images
+docker rmi test_api
+docker build -t test_api_dev .
+git clone https://github.com/SwatiPanwar/testnamespace.git
+cd testnamespace/
+ls -l
+vi docker-compose.local.traefik.yml
+docker compose up
+vi docker-compose.local.traefik.yml
+docker compose up
+vi docker-compose.local.traefik.yml
+docker compose up
+vi docker-compose.local.traefik.yml
+cd ..
+docker compose up
+cd testnamespace/
+docker compose up
+docker compose up p docker-compose.local.traefik.yml
+vi docker-compose.local.traefik.yml
+docker compose up p docker-compose.local.traefik.yml
+vi docker-compose.local.traefik.yml
+cd ..
+docker remote add origin https://github.com/SwatiPanwar/testnamespace.git
+git remote add origin https://github.com/SwatiPanwar/testnamespace.git
+git add .
+git commit -m "new_change _compose"
+git push -u origin master
+cd testnamespace/
+docker compose up
+vi docker-compose.local.traefik.yml
+docker-compose -f docker-compose.yml up -d
+docker compose -f docker-compose.yml up -d
+vi docker-compose.local.traefik.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.local.traefik.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.local.traefik.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.yml
+docker compose -f docker-compose.yml up -d
+ls -l
+vi docker-compose.traefik.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.local.traefik.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.local.traefik.yml
+vi docker-compose.traefik.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.local.traefik.yml
+vi docker-compose.traefik.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.local.traefik.yml
+vi docker-compose.traefik.yml
+vi docker-compose.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.yml
+docker compose -f docker-compose.yml up -d
+vi docker-compose.local.traefik.yml
+vi docker-compose.traefik.yml
+vi docker-compose.yml
+docker compose -f docker-compose.yml up -d
+docker login
+#docker tag local-image:tagname new-repo:tagname
+#docker push new-repo:tagname
+docker push swatipanwar/thisistest:tagname
+docker push swatipanwar/test_api_dev:latest
+cd ..
+docker push swatipanwar/test_api_dev:latest
+docker push test_api_dev:latest
+docker login
+docker push test_api_dev:latest
+docker login -u "swatipanwar" -p "Swati@1508" docker.io
+docker push swatipanwar/test_api_dev:latest
+docker images
+docker tag 0a53f94ae779 swatipanwar/test_api_dev:latest
+docker push swatipanwar/test_api_dev:latest
+cd testnamespace/
+ls -l
+cd testnamespace/
+ls -l
+vi docker-compose.local.traefik.yml 
+vi docker-compose.yml 
+docker compose up -d
+ls -l
+systemctl start docker
+systemctl status docker
+docker compose up -d
+cd testnamespace/
+docker compose up -d
+docker ps
+docker logs 6d2584830965
+vi docker-compose.yml 
+docker compose up -d
+ls -l
+vi docker-compose.yml 
+docker compose up -d
+docker ps
+docker logs 26580ea1a5a1
+vi docker-compose.yml 
+ls
+cd testnamespace/
+ls
+vi docker-compose.local.traefik.yml 
+vi docker-compose.traefik.yml 
+vi docker-compose.yml 
+docker compose up -d
+docker ps
+ls -l
+cd testnamespace/
+ls -l
+vi docker-compose.yml 
+vi docker-compose.local.traefik.yml 
+vi docker-compose.traefik.yml 
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+docker ps
+docker logs 86926decfd58
+vi docker-compose.local.traefik.yml 
+vi docker-compose.traefik.yml 
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+vi docker-compose.local.traefik.yml 
+vi docker-compose.traefik.yml 
+docker compose version
+sudo yum update -y
+docker compose version
+sudo rm -rf docker-compose
+vi docker-compose.
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.local.traefik.yml 
+vi docker-compose.traefik.yml 
+vi docker-compose.yml 
+docker compose up -d
+vi docker-compose.yml 
+vi docker-compose.local.traefik.yml 
+vi docker-compose.traefik.yml 
+yum install docker compose v:3
+vi docker-compose.yml 
+docker compose up -d
+docker compose down
+docker compose up
+docker compose down
+docker compose build
+docker compose down
+docker compose up --force-recreate
+yum install gunicorn
+cd ..
+gunicorn version
+cd testnamespace/
+vi docker-compose.yml 
+docker compose up 
+cd src/
+vi gunicorn_config.py 
+cd ..
+docker compose down
+docker compose up
+cd ..
+docker compose up
+cd testnamespace/
+docer compose up
+docker compose up
+vi docker-compose.yml 
+gunicorn -h
+export PYTHONPATH=$PWD/src
+vi docker-compose.yml 
+docker compose up
+docker compose down
+export PYTHONPATH=--config gunicorn_config.py
+cd testnamespace/
+sudo apt-get install gunicorn3
+sudo yum install gunicorn3
+sudo yum install gunicorn
+yum install pip -y
+cd testnamespace/
+pip install gunicorn
+gunicorn --version
+gunicorn -h
+gunicorn --config
+gunicorn --config gunicorn_config.py
+gunicorn --config src/gunicorn_config.py
+gunicorn --config /src/gunicorn_config.py
+gunicorn --config -h
+gunicorn --config CONFIG
+gunicorn -c CONFIG
+gunicorn -c CONFIG --config gunicorn_config.py
+cd src/
+ls
+gunicorn --config /src/gunicorn_config.py
+gunicorn --config gunicorn_config.py
+cat /usr/local/lib/python3.9/site-packages/gunicorn/app/base.py
+cd ..
+gunicorn --config gunicorn_config.py
+cat /usr/local/lib/python3.9/site-packages/gunicorn/app/base.py
+cd ..
+gunicorn --version
+gunicorn --config
+gunicorn --config python=gunicorn_config.py
+gunicorn --config CONFIG python=gunicorn_config.py
+gunicorn --print-config APP_MODULE
+gunicorn --config CONFIG $(testnamespace/src/gunicorn_config.py)
+gunicorn --config $(testnamespace/src/gunicorn_config.py)
+gunicorn --config CONFIG$(testnamespace/src/gunicorn_config.py)
+gunicorn --config gunicorn_config.py:testnamespace/src/gunicorn_config.py
+gunicorn --config testnamespace/src/gunicorn_config.py:testnamespace/src/gunicorn_config.py
+gunicorn --config gunicorn_config.py:/testnamespace/src/gunicorn_config.py
+gunicorn --config gunicorn_config.py
+gunicorn --config /testnamespace/src/gunicorn_config.py
+pwd
+cd testnamespace/
+cd src/
+ls -l
+cat app.py
+cd ..
+gunicorn --version
+gunicorn --config /path/to/gunicorn/gunicorn_config.py
+gunicorn --config /testnamespace/src/gunicorn_config.py
+gunicorn --config /root/testnamespace/src/gunicorn_config.py
+gunicorn version
+gunicorn -h
+gunicorn -c CONFIG gunicorn_config.py
+gunicorn -c ./gunicorn_config.py
+LS
+ls
+cd testnamespace/
+ls
+cd src/
+ls
+gunicorn -c ./gunicorn_config.py
+gunicorn -c CONFIG ./gunicorn_config.py
+gunicorn -c gunicorn_config.py
+vi gunicorn_config.py 
+gunicorn -c ./gunicorn_config.py
+gunicorn -c gunicorn_config.py
+cd ..
+ls
+gunicorn -c ./gunicorn_config.py
+gunicorn -c ./src/gunicorn_config.py
+
+gunicorn -c ./testnamespace/src/gunicorn_config.py
+ls
+cd testnamespace/
+ls
+docker compose up
+cd testnamespace/
+docker compose up
+gunicorn version
+gunicorn --version
+gunicorn -h
+tree
+docker ps
+docker ps -a
+docker logs 110a37497d00
+docker start container 110a37497d00
+ls
+cat Dockerfile 
+cat docker-compose.yml 
+pwd
+tree
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+cat docker-compose.yml 
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+pwd
+vi docker-compose.yml 
+docker compose down
+docker compose up
+cat Dockerfile 
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+vi docker-compose.yml 
+docker compose up
+docker compose down
+vi docker-compose.yml 
+docker compose up
+docker compose down
+docker compose up
+vi docker-compose.yml 
+cat Dockerfile 
+vi Dockerfile 
+docker build -t test_api .
+vi Dockerfile 
+docker pull swatipanwar/test_api_dev:latest
+docker images
+docker run -t test_api_dev test
+docker ps
+docker run swatipanwar/test_api_dev
+docker run test_api_dev
+docker images
+docker run swatipanwar/test_api_dev
+vi Dockerfile 
+ls
+cat Dockerfile 
+docker build -t test .
+docker run test
+vi Dockerfile 
+docker run test
+vi Dockerfile 
+docker run test
+vi Dockerfile 
+ls
+cat Dockerfile 
+docker images
+docker run -t test
+vi Dockerfile 
+docker images
+docker rmi test test_api_dev swatipanwar/test_api_dev python 
+docker images
+docker build -t test_docker .
+docker images
+docker rmi test_docker
+docker build -t test_docker .
+docker images
+docker run -t test_docker
+docker ps
+docker logs 481aafc4ad61
+docker exec -it 481aafc4ad61 /bin/bash
+vi Dockerfile 
+tree
+cat Dockerfile 
+cd project21/
+vi Dockerfile 
+cat Dockerfile 
+vi Dockerfile 
+docker build -t test2 .
+vi Dockerfile 
+docker build -t test2 .
+docker run -d test2
+docker ps
+docker exec -it 481aafc4ad61 /bin/bash
+vi Dockerfile 
+cd ..
+rm -rf Dockerfile 
+cd project21/
+ls -l
+cd src
+ls -l
+cd ..
+docker images
+docker rmi test2
+docker ps
+docker stop 481aafc4ad61
+docker ps
+docker rmi test2
+docker rm 481aafc4ad61
+docker rmi test2
+docker ps -a
+docker container prune
+docker ps -a
+docker ps
+docker rmi test2
+clear
+vi Dockerfile 
+docker build -t test2 .
+docker images
+docker run -d test2
+docker ps
+docker ps -a
+docker logs 1b2355ad5dc3
+docker run -itd test2
+docker ps
+docker exec -it 00bce654bfa5 /bin/bash
+vi Dockerfile 
+docker ps 
+docker stop 00bce654bfa5
+docker container prune
+docker rmi test2
+docker build -t test2 .
+docker run -itd test2
+docker ps
+docker ps -a
+docker run -d test2
+docker ps
+docker run test2
+vi Dockerfile 
+docker container prune
+docker rmi test2
+docker build -t test2
+docker build -t test2 .
+docker run -d test2
+docker ps
+docker run test2
+ls
+cat requirements.txt 
+vi requirements.txt 
+docker container prune
+docker rmi test2
+docker build -t test2 .
+docker run -d test2
+docker ps
+docker run test2
