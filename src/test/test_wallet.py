@@ -1,8 +1,9 @@
-#Basic wallet test example from: https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
+#import wallet
+#from wallet import Wallet, InsufficientAmount
 import pytest
 from wallet import Wallet, InsufficientAmount
 
-@pytest.fixtre
+@pytest.fixture
 def my_wallet():
     '''Returns a Wallet instance with a zero balance'''
     return Wallet(1)
